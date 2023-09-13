@@ -148,8 +148,8 @@
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
-                    <button class="btn btn-dark" onclick="window.location.href='login.html'">Login</button>
-                    <button class="btn btn-secondary" onclick="window.location.href='cadastro.html'">Cadastro</button>
+                    <button class="btn btn-secondary" onclick="window.location.href='login.html'">Login</button>
+                    <button class="btn btn-outline-secondary" onclick="window.location.href='cadastro.html'">Cadastro</button>
                 </div>
             </div>
         </div>
@@ -160,37 +160,99 @@
                 <div class="form-signin w-100 m-auto">
                     <form>
                         <div class="d-flex">
-                            <p class="gradient fs-2 fw-bold">Login</p>
+                            <p class="gradient fs-1 fw-bold">Login</p>
                         </div>
-                        <h1 class="h3 mb-3 fw-normal">Bom te ver dinovo!</h1>
-
+                        <h1 class="h3 mb-3 fw-bold">Bem-Vindo de Volta!</h1>
+                        <p class="fs-5">Que bom que você voltou!</br>Logue e continue de onde parou em seus mangás preferidos</p>
                         <div class="form-floating">
-                            <input type="email" class="form-control bg-transparent border-secondary" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Email address</label>
+                            <input type="email" class="form-control bg-transparent border-secondary text-light" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email</label>
                         </div>
                         <div class="form-floating">
-                            <input type="password" class="form-control bg-transparent border-secondary" id="floatingPassword" placeholder="Password">
-                            <label for="floatingPassword">Password</label>
+                            <input type="password" class="form-control bg-transparent border-secondary text-light" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Senha</label>
                         </div>
-                        <div class="form-check text-start my-3">
-                            <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                Remember me
-                            </label>
+                        <div class="d-flex justify-content-between ">
+                            <div class="form-check text-start my-3">
+                                <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Lembre-me
+                                </label>
+                            </div>
+                            <a class="d-flex align-items-center link-secondary" href="#">Esqueci minha senha</a>
                         </div>
-                        <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
+                        <button class="btn btn-light w-100 py-2" type="submit">Logar</button>
                     </form>
+                    <div class="d-grid gap-2 col-12 mx-auto pt-2">
+                        <button class="btn btn-light w-100 py-2 d-flex justify-content-around" type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="20" height="20">
+                                <g>
+                                    <path d="M12.479,14.265v-3.279h11.049c0.108,0.571,0.164,1.247,0.164,1.979c0,2.46-0.672,5.502-2.84,7.669   C18.744,22.829,16.051,24,12.483,24C5.869,24,0.308,18.613,0.308,12S5.869,0,12.483,0c3.659,0,6.265,1.436,8.223,3.307L18.392,5.62   c-1.404-1.317-3.307-2.341-5.913-2.341C7.65,3.279,3.873,7.171,3.873,12s3.777,8.721,8.606,8.721c3.132,0,4.916-1.258,6.059-2.401   c0.927-0.927,1.537-2.251,1.777-4.059L12.479,14.265z"/>
+                                </g>
+                            </svg>
+                            Continuar com o Google
+                        </button>
+                        <button class="btn btn-light w-100 py-2 d-flex justify-content-around" type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="20" height="20">
+                                <g>
+                                    <rect x="0.046" width="11.386" height="11.428"/>
+                                    <rect x="12.639" width="11.315" height="11.428"/>
+                                    <rect x="0.046" y="12.572" width="11.386" height="11.428"/>
+                                    <rect x="12.639" y="12.572" width="11.315" height="11.428"/>
+                                </g>
+                            </svg>
+                            Continuar com a Microsoft
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="b-example-divider"></div>
             <div class="container">
                 <footer class="py-3 my-4">
                     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary link-secondary">Home</a></li>
-                        <li class="nav-item"><a href="quem_somos.html" class="nav-link px-2 text-body-secondary link-secondary">Quem Somos</a></li>
-                        <li class="nav-item"><a href="contato.html" class="nav-link px-2 text-body-secondary link-secondary">Entre em contato</a></li>
-                        <li class="nav-item"><a href="https://tachiyomi.org/download/" class="nav-link px-2 text-body-secondary link-secondary" target="_blank">Download</a></li>
-                        <li class="nav-item"><a href="https://tachiyomi.org/privacy/" class="nav-link px-2 text-body-secondary link-secondary" target="_blank">Privacidade</a></li>
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link px-2 text-body-secondary link-secondary">Home</a></li>
+                        <li class="nav-item">
+                            <a href="quem_somos.html" class="nav-link px-2 text-body-secondary link-secondary">Quem Somos</a></li>
+                        <li class="nav-item">
+                            <button type="button" class="btn bg-transparent text-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@contato">Entre em contato</button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content bg-dark">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <label for="recipient-name" class="col-form-label">Nome:</label>
+                                                    <input type="text" class="form-control bg-transparent text-light" id="recipient-name">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="recipient-name" class="col-form-label">Sobrenome:</label>
+                                                    <input type="text" class="form-control bg-transparent text-light" id="recipient-name">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="message-text" class="col-form-label">Messagem:</label>
+                                                    <textarea class="form-control bg-transparent text-light" id="message-text"></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-outline-success">Send message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://tachiyomi.org/download/" class="nav-link px-2 text-body-secondary link-secondary" target="_blank">Download</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://tachiyomi.org/privacy/" class="nav-link px-2 text-body-secondary link-secondary" target="_blank">Privacidade</a>
+                        </li>
                     </ul>
                     <p class="text-center text-body-secondary">© 2023 Leonardo Vinícius. O direito de permanecer calado.</p>
                 </footer>
